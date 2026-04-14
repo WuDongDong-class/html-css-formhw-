@@ -1,0 +1,114 @@
+body {
+  background-color: #f0ebf8;
+}
+.st1 {
+  width: 640px;
+  height: 231px;
+  margin: 0 auto;
+  border-top: 10px solid purple;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.form1 {
+  margin: auto 0;
+}
+
+.st2 {
+  width: 640px;
+  height: 138px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px soolid #ffffff;
+  background-color: #fff;
+}
+
+.form2 {
+  padding-left: 6px;
+}
+
+.st3 {
+  width: 640px;
+  height: 138px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px soolid #ffffff;
+  background-color: #fff;
+}
+
+.st4 {
+  width: 640px;
+  height: 153px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px soolid #ffffff;
+  background-color: #fff;
+}
+
+.st5 {
+  width: 640px;
+  height: 136px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px soolid #ffffff;
+  background-color: #fff;
+}
+
+.st6 {
+  width: 640px;
+  height: 210px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px soolid #ffffff;
+  background-color: #fff;
+}
+
+.st7 {
+  width: 640px;
+  height: 306px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px soolid #ffffff;
+  background-color: #fff;
+}
+
+.st8 {
+  width: 640px;
+  height: 138px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px soolid #ffffff;
+  background-color: #fff;
+}
+
+.st9 {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.submit-btn {
+  background-color: purple;
+  color: white;
+  padding: 0 24px;
+}
+
+.p-text {
+  font-size: 10px;
+  text-align: center;
+  width: 640px;
+  margin: 10px auto;
+}
+
+.stop {
+  font-size: 10px;
+  width: 640px;
+  margin: 10px auto;
+}
+
+.clear {
+  margin-left: 490px;
+}
+
+span {
+  color: rgb(202, 70, 56);
+}
