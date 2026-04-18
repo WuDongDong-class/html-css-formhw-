@@ -99,7 +99,7 @@ body {
   margin: 10px auto;
 }
 
-.stop {
+.warn {
   font-size: 10px;
   width: 640px;
   margin: 10px auto;
@@ -111,4 +111,18 @@ body {
 
 span {
   color: rgb(202, 70, 56);
+}
+
+.hint {
+  color: gold;
+  text-align: right;
+  border-style: pointer;
+  display: none;
+}
+
+.item {
+  font-size: 16px;
+  color: #1f1f1f;
+  margin-top: 0px;
+  margin-bottom: 8px;
 }

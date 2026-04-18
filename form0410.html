@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="form0410.css" />
+    <script src="form0410.js"></script>
   </head>
   <body>
     <main class="big-bg">
@@ -21,55 +22,64 @@
           <p color="red"><span>*</span>表示必填問題</p>
         </div>
       </section>
-      <form action="">
+      <div>
+        <form action="">
         <section class="st2">
           <div class="fproblems">
-            <form action="">
-              姓名<span>*</span>
-              <div>
-                <input type="text" placeholder="你的回答" />
-              </div>
-            </form>
+              <label>
+                姓名<span>*</span>
+                <div>
+                  <input type="text" placeholder="你的回答" name="name"/>
+                </div>
+              </label>
           </div>
         </section>
         <section class="st4">
-          <div class="fproblems">信箱<span>*</span></div>
-          <div class="mail">
-            <input type="text" name="email" placeholder="你的回答" />
-          </div>
+          <label for="">
+            <label>
+              <div class="fproblems">信箱<span>*</span></div>
+              <div class="mail">
+              <input type="text" name="email" placeholder="你的回答" /></div>
+            </label>
         </section>
         <section class="st3">
           <div class="fproblems">生日</div>
           <p class="p-data">日期</p>
           <div class="">
-            <input type="date" name="" />
+            <input type="date" name="birthday" />
           </div>
         </section>
         <section class="st5">
+            <label>
           <div class="fproblems">想跟老師說悄悄話</div>
           <div class="talk">
-            <input type="text" name="talk-in" placeholder="你的回答" />
+            <input type="text" name="talk" placeholder="你的回答" />
           </div>
+          </label>
         </section>
         <section class="st6">
-          <div class="fproblems">喜歡的顏色</div>
-          <div>
-            <label for="">
-              黃<input type="radio" name="color-in" id="" /> </label
-            ><br />
-            <label for="">綠<input type="radio" name="color-in" id="" /> </label
-            ><br />
-            <label for=""> 藍<input type="radio" name="color-in" /> </label>
+          <div class="FavColor">
+            <P class="item">喜歡的顏色</P>
+            <label >
+              黃<input type="radio" name="color-input" id="" />
+            </label>
+            <br />
+            <label>
+              綠<input type="radio" name="color-input" id="" />
+            </label>
+            <br />
+            <label > 藍<input type="radio" name="color-input" /> </label>
+            <p class="hint" >清除選取的項目</p>
           </div>
         </section>
         <section class="st7">
           <div class="fproblems">喜歡吃的飲食類型</div>
-          <label for=""><input type="checkbox" name="eat" />中式<br /></label>
-          <label for=""><input type="checkbox" name="eat" />義式<br /></label>
-          <label for=""><input type="checkbox" name="eat" />韓式<br /></label>
-          <label for=""><input type="checkbox" name="eat" />日式<br /></label>
-          <label for=""><input type="checkbox" name="eat" />美式<br /></label>
-          <label for=""><input type="checkbox" name="eat" />泰式<br /></label>
+          <label><input type="checkbox" name="eat" />中式<br /></label>
+          <label><input type="checkbox" name="eat" />義式<br /></label>
+          <label><input type="checkbox" name="eat" />韓式<br /></label>
+          <label><input type="checkbox" name="eat" />日式<br /></label>
+          <label><input type="checkbox" name="eat" />美式<br /></label>
+          <label><input type="checkbox" name="eat" />泰式<br /></label>
         </section>
         <section class="st8">
           <div class="country-block">
@@ -90,17 +100,21 @@
             </label>
           </div>
         </section>
-        <div class="st9">
+        <section class="st9">
           <button type="submit" class="submit-btn">提交</button>
           <a href="#" class="clear">清除表單</a>
-        </div>
-      </form>
-      <div class="stop">請勿利用 Google 表單送出密碼。</div>
+        </section>
+        <div class="warn">請勿利用 Google 表單送出密碼。</div>
+        </form>
+      </div>
       <p class="p-text">
         這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。 -
         聯絡表單擁有者
       </p>
       <p class="p-text">這份表單很可疑嗎？ 報告</p>
     </main>
+    
   </body>
 </html>
+
+<!-- <input type="checkbox" name="" id=""> -->
